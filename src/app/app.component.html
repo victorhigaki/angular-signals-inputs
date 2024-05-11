@@ -1,0 +1,14 @@
+<input-antigo label="Input Antigo" botaoDesativado="false" (botaoClicado)="imprimirValor($event)"
+    [(valor)]="valorInputAntigo" />
+
+<p> {{valorInputAntigo}}</p>
+
+<div class="separator">
+</div>
+
+<input-signal label="Meu nome" [botaoDesativado]="false" (botaoClicado)="imprimirValor($event)"
+    [(valor)]="valorInputSignal" />
+
+<p>
+    {{ valorInputSignal}}
+</p>
